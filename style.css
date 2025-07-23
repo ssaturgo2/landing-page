@@ -1,0 +1,98 @@
+* {
+    /* border: 1px solid red; */
+    margin: 0;
+}
+
+body {
+    font-family: roboto;
+
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---------- HEADER ----------*/
+header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin: 10px;
+    width: 1000px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.links {
+    padding: 0;
+
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+/* ---------- HERO BLOCK ---------- */
+.hero-block {
+    background-color: #1F2937;
+    font-weight: 900;
+    color: #F9FAF8;
+
+    height: 350px;
+
+    display: flex;
+    justify-content: center;
+}
+.hero-block .container {
+    display: flex;
+    align-items: start;
+    padding-top: 50px;
+    /* gap: 25px; */
+}
+
+.left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.left-side h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.left-side p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding-right: 50px;
+}
+.left-side button {
+    color: white;
+    font-weight: bold;
+    background-color: #3882f6;
+    padding: 5px 25px 5px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.right-side {
+    flex: 1;
+}
+#hero-image {
+    height: 220px;
+    background-color: gray;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
