@@ -1,36 +1,28 @@
+/* ---------- GLOBAL ----------  */
 * {
-    /* border: 1px solid red; */
     margin: 0;
 }
-
 body {
     font-family: roboto;
-
-    margin: 0;
-    display: flex;
-    flex-direction: column;
 }
-p {
-    font-size: 18px;
-}
-
 .container {
     width: 1000px;
     
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 /* ---------- HEADER ----------*/
 header {
-    background-color: #1F2937;
+    padding: 15px;
+
     color: #E5E7EB;
+    background-color: #1F2937;
 
     display: flex;
     justify-content: center;
-
-    padding: 15px;
 }
 .logo {
     font-size: 24px;
@@ -38,29 +30,22 @@ header {
     color: #F9FAF8;
 }
 .links {
-    padding: 0;
-
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 /* ---------- HERO BLOCK ---------- */
 .hero-block {
-    background-color: #1F2937;
+    min-height: 475px;
+
     font-weight: 900;
     color: #F9FAF8;
-
-    min-height: 475px;
+    background-color: #1F2937;
 
     display: flex;
     justify-content: center;
-}
-.hero-block .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
 }
 .left-side {
     flex: 1;
@@ -80,14 +65,15 @@ header {
     padding-right: 50px;
 }
 .left-side button {
-    color: white;
-    font-size: 17px;
-    font-weight: bold;
-    background-color: #3882f6;
     width: 125px;
     height: 37px;
-    border-radius: 7px;
     border: none;
+    border-radius: 7px;
+    background-color: #3882f6;
+
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
 }
 .right-side {
     flex: 1;
@@ -95,19 +81,20 @@ header {
 #hero-image {
     height: 230px;
     background-color: #6d747d;
+
+    font-weight: normal;
     
     display:flex;
     justify-content: center;
     align-items: center;
-    
-    font-weight: normal;
 }
 
 /* ---------- INFRORMATION BLOCK ---------- */
 .information-block {
+    min-height: 495px;
+    
     display: flex;
     justify-content: center;
-    min-height: 495px;
 }
 .information-block .container {
     display: flex;
@@ -123,6 +110,7 @@ header {
 }
 .card {
     width: 170px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,15 +145,17 @@ header {
     align-items: center;
 }
 .quote-holder {
+    width: 1000px;
+
     display: flex;
     flex-direction: column;
-    width: 1000px;
 }
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
     font-weight: 300;
+
     padding-left: 110px;
     padding-right: 110px;
 }
@@ -173,12 +163,14 @@ header {
     font-size: 24px; 
     font-weight: bold;
     text-align: right;
+
     padding-right: 150px;
 }
 
 /* ---------- CALL TO ACTION BLOCK ---------- */
 .call-to-action-block {
     min-height: 350px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,33 +179,32 @@ header {
     font-size: 20px;
     color: white;
 
-    background-color: #3882f6;
     width: 1000px;
     height: 150px;
+    border-radius: 10px;
+    background-color: #3882f6;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
     
-    border-radius: 10px;
 }
 .blue-block p {
     font-size: 18px;
     font-weight: 350;
 }
-
 .blue-block button {
+    width: 140px;
+    height: 40px;
+
     background-color: #3882f6;
     border: white 3px solid;
     border-radius: 10px;
     padding: 3px;
 
-    color: white;
     font-size: 17px;
+    color: white;
     font-weight: bolder;
-
-    width: 140px;
-    height: 40px;
 }
 
 /* ---------- FOOTER BLOCK ---------- */
