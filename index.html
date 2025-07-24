@@ -3,13 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <title>Landing Page</title>
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!-- Header -->
         <header>
-            <div class="logo">Header Logo</div>
-            <div class="links">
-                <ul>
+            <div class="container">
+                <div class="logo">Header Logo</div>
+                <ul class="links">
                     <li>header link one</li>
                     <li>header link two</li>
                     <li>header link three</li>
@@ -19,63 +24,68 @@
 
         <!-- Hero Block -->
         <div class="hero-block">
-            <div class="left-side">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</p>
-                <button>Sign Up</button>
-            </div>
+            <div class="container">
+                <div class="left-side">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</p>
+                    <button>Sign Up</button>
+                </div>
 
-            <div class="right-side">
-                <div class="image">
-                    <p>this is a placegolder for an image</p>
+                <div class="right-side">
+                    <div id="hero-image">
+                        <p>this is a placeholder for an image</p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Information Block -->
-         <div class="information-block">
-            <h2>Some random Information</h2>
-            <div class="cards-holder">
-                <div class="card">
-                    <img src="" alt="item-info-1">
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="card">
-                    <img src="" alt="item-info-2">
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="card">
-                    <img src="" alt="item-info-3">
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="card">
-                    <img src="" alt="item-info-4">
-                    <p>this is some subtext under an illustration or image</p>
+        <div class="information-block">
+            <div class="container">
+                <h2>Some random Information.</h2>
+                <div class="cards-holder">
+                    <div class="card">
+                        <div class="img"></div>
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="card">
+                        <div class="img"></div>
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="card">
+                        <div class="img"></div>
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
+                    <div class="card">
+                        <div class="img"></div>
+                        <p>this is some subtext under an illustration or image</p>
+                    </div>
                 </div>
             </div>
-         </div>
+        </div>
 
-         <!-- Quote Block -->
-         <div class="quote-block">
+        <!-- Quote Block -->
+        <div class="quote-block">
             <div class="quote-holder">
                 <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</p>
-                <div class="signature">Thor, God of Thuner</div>
+                <div class="signature">- Thor, God of Thunder</div>
             </div>
-         </div>
+        </div>
 
-         <!-- Call to action block -->
-          <div class="call-to-action-block">
+        <!-- Call to action block -->
+        <div class="call-to-action-block">
             <div class="blue-block">
                 <div class="information">
                     <h3>Call to action! It's time!</h3>
                     <p>Sign up for our product by clicking that button right over there!</p>
                 </div>
+                <button>Sign Up</button>
             </div>
-          </div>
+        </div>
 
-          <!-- Footer -->
-           <footer>
+        <!-- Footer -->
+        <footer>
             <p>Copyright @ The Odin Project 2021</p>
-           </footer>
+        </footer>
     </body>
 </html>
